@@ -1,0 +1,305 @@
+
+
+
+header ul {
+    margin: 0px;
+    padding: 15px;
+    margin-top: 0px;
+}
+header {
+    max-width: 100%;
+    background-color: #bbb;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: center;
+}
+#menumobile {
+  display: none;
+}
+header input {
+    margin-right: 0px;
+}
+header button {
+    margin-right: 30px;
+    background-color: white;
+    color: black;
+}
+.pesquisa {
+    margin-top: 10px;
+
+}
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+nav ul {
+    display: flex;
+}
+
+nav li {
+    list-style: none;
+    margin-left: 10px;
+    font-weight: 500;
+}
+nav a {
+    text-decoration-line: none;
+    color: black;
+}
+.perfil {
+    padding-top: 50px;
+    margin-bottom: 60px;
+}
+.perfil a {
+    text-decoration-line: none;
+    color: #222;
+
+}
+.perfil ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    margin: 0px;
+    margin-left: -30px;
+}
+.perfil ul li {
+    margin: 0px;
+    margin-right: 30px;
+}
+.perfil img {
+    min-height: 200%;
+}
+.perfil_escrita {
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+
+}
+.perfil_texto {
+    margin-left: 50px;
+}
+.perfil_redesocial {
+    bottom: 0px;
+    margin-left: 50px;
+}
+.projetos h1 {
+    margin: 0%;
+    margin-bottom: 50px;
+    display: inline;
+}
+.projetos .dropdown {
+    left: 170%;
+}
+
+.projetos .btn {
+    color: black;
+    background-color: white;
+}
+.projetos h3 {
+    font-weight: 700;
+    font-size: 150%;
+}
+.projetos img {
+    width: 100%;
+}
+.projetos_linha {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.carregar {
+    background-color: #222;
+    color: white;
+    padding: 8px;
+    position: absolute;
+    right: 9%;
+    margin-top: 20px;
+}
+.carregar p {
+    display: inline;
+    margin-right: 15px;
+    margin-left: 10px;
+}
+.carregar i {
+    margin: 0px 15px;
+}
+
+.projetos {
+    margin-bottom: 60px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.experiencia {
+    margin-top: 90px;
+}
+
+.experiencia h1 {
+    margin-bottom: 40px;
+}
+.experiencia .row {
+    margin-bottom: 30px;
+}
+#periodo {
+    font-weight: 350;
+    color: #333;
+}
+
+.repositorios {
+    background-color: #ccc; 
+    margin: 150px 0px 0px;  
+    padding: 30px; 
+    width: 100%;
+    padding-bottom: 120px;
+}
+
+.repositorios_linha {
+    padding: 30px;
+}
+
+.recomendacao {
+    margin: 60px 0px 120px;
+}
+.recomendacao h1 {
+    margin: 20px 0px 30px ;
+}
+.recomendacao h2 {
+    font-size: 150%;
+}
+.recomendacao p  {
+    font-size: 100%;
+}
+.recomendacao span {
+    margin-left: 25px;
+}
+iframe {
+    margin: 0px;
+    padding: 0px;
+    max-width: 100%;
+    max-height: 220px;
+}
+
+footer {
+    background-color: #ddd;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+footer div {
+    margin-right: 30px;
+    font-size: 150%;
+    padding: 8px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+
+
+footer p {
+    margin: 0px;
+    margin-left: 80px;
+    padding: 35px;
+}
+
+
+@media screen and (max-width: 576px) {
+    
+
+    header {
+        z-index: 5;
+        align-items: center;        
+    }
+    .carregar {
+      display: flex;
+      flex-wrap: nowrap;
+      align-items: center;
+      width: 50%;
+    }
+    .carregar p {
+      margin: 0px;
+
+    }
+    .menu {
+      flex-wrap: wrap;
+    }
+    .dropdown {
+        display: none;        
+    }
+
+    .projetos h1 {
+      font-size: 300%;
+    }
+
+    .projetos h3 {
+      margin-bottom: 20px;
+    }
+
+    .experiencia {
+      margin-top: 120px;
+    }
+    .experiencia h1 {
+      font-size: 300%;
+    }
+    .experiencia .row {
+      margin-top: 40px;
+    }
+
+    .repositorios_linha div {
+      margin-top: 35px;
+    }
+
+    .recomendacao iframe {
+      margin-top: 30px;
+    }
+    footer {
+      flex-flow: column;
+      align-items: center;
+    }
+    footer p {
+      width: 100%;
+      margin: 0px;
+    }
+}
+
+@media screen and (min-width: 577px) and (max-width: 767) {
+
+    header {
+      flex-flow: column;
+      width: 100%;
+      align-content: center;
+      margin: 0px;
+    }
+    header input {
+      left: 500px;
+    }
+    header ul {
+      width: 100%;
+      flex-wrap: nowrap;
+      margin: 0px;
+    }
+    header ul li {
+      flex-wrap: nowrap;
+    }
+  
+    footer {
+      flex-flow: column;
+      align-items: center;
+    }
+    footer p {
+      width: 100%;
+      margin: 0px;
+    }
+        .carregar {
+      display: flex;
+      flex-wrap: nowrap;
+      align-items: center;
+      width: 50%;
+    }
+    .carregar p {
+      margin: 0px;
+
+    }
+    
+}
